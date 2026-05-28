@@ -1,0 +1,39 @@
+{
+  "name": "@mrclrchtr/context7",
+  "version": "0.1.9",
+  "description": "Pi-native Context7 documentation tools — direct HTTP, persistent cache, no MCP dependency",
+  "keywords": [
+    "pi-package",
+    "context7",
+    "pi",
+    "pi-coding-agent",
+    "documentation"
+  ],
+  "author": "Juan Albarran <jalbarrandev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Changhochien/context7"
+  },
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/context7"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "typebox": {
+      "optional": true
+    }
+  }
+}
